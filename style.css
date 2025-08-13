@@ -1,0 +1,59 @@
+#hero {
+    background-image: url('./assets/photos/banner2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.profile-pic {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+#skills {
+    background-color: #ebedf1;
+}
+
+.skillh {
+    color: #5c93b1;
+}
+
+#footer {
+    background-image: url('./assets/photos/banner2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:20vh;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, h4 {
+font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #b0b0b0;
+}
+
+.para {
+    font-family: "Work Sans", sans-serif;  
+    font-size: 20px;
+    line-height: 1.8;
+    color:black;
+}
